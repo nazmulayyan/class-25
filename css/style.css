@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#slider{
+    position: relative;
+}
+#slider i{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+}
+#slider .left{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+#slider .right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+
+}
+.slick-dots li{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    color: transparent;
+    border: 0;
+    opacity: 0;
+}
+.slick-dots li.slick-active button{
+    opacity: 1;
+}
+#slider1{
+    margin-top: 100px;
+    position: relative;
+}
+.slider1-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.slider1-text{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.slider1-text h2{
+    padding-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.slider1-text p{
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.slider1-text a{
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    background-color: tomato;
+    text-transform: capitalize; 
+}
+#slider2{
+    margin-top: 100px;
+    position: relative;
+}
+.slider2-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.5%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider2-text{
+    text-align: center;
+
+}
+.slider2-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 168px;
+}
+.slider2-text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 165px 40px 165px;
+}
+.button{
+    padding-bottom: 30px;
+}
+.slider2-text a{
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    background-color: tomato;
+    text-transform: capitalize; 
+}
+#slider3{
+    margin-top: 50px;
+}
+.slider-item3{
+    position: relative;
+}
+.slider1-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+}
